@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+body{
+	font-family: 'Teko', sans-serif;
+	margin: 0;
+	background-color: #997461;
+}
+
+header {
+    background-color: #d1733b; 
+    padding: 20px; 
+    text-align: center; 
+    letter-spacing: 0.3em;
+    word-spacing: 1em;
+
+}
+h1 {
+    margin: 0; 
+    color: #ffffff; 
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: #46352e;
+}
+
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	
+}
+
+.col-sm-6{
+	font-size: 1.2em;
+	color: #333333;
+	text-align: left;
+	padding: 20px;
+	padding-bottom: 0;
+	padding-left: 120px;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+nav{
+	background-color: #b5744a;
+	border-top: 2px darkred solid;
+	border-bottom: 2px darkred solid;
+	padding: 20px;
+	font-size: 25px;
+
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	margin-right: 20px;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+nav a:link{
+	color: #white;
+}
+
+nav a:visited{
+	color: #white;
+}
+
+nav a:hover{
+	color: #gray;
+}
+
+nav a:active{
+	color: #lightgray;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	text-align: center;
+	font-size: 4em;
+}
+
+.col-sm-10{
+	font-size: 20px;
+	word-spacing: 0.1em;
+	letter-spacing: .05em;
+	color: #e4e3eb;
+}
+
+.col-sm-2{
+	font-size: 4em;
+	color: #e4e3eb;
+}
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}

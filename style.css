@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Protest+Guerrilla&family=Shadows+Into+Light&display=swap');
+body{
+	font-family: 'Teko', sans-serif;
+	margin: 0;
+	background-color: #273d52;
+}
+
+main{
+	max-width: 1050px;
+	margin: 20px auto;
+	font-size: 20px;
+	background-color: #bf9461;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	padding: 10px;
+}
+
+footer{
+	
+	border-top: 1px solid gray;
+	padding: 20px;
+}
+
+
+
+header{
+	padding: 12px;
+}
+
+.col-sm-6{
+	display: flex;
+	justify-content: center;
+
+}
+footer h3{
+	color: whitesmoke;
+	padding-top: 15px;
+}
+footer p{
+	color: orangered;
+}
+footer small{
+	display: flex;
+	justify-content: center;
+	color: orangered;
+}
+.col-sm-6 i{
+	font-size: 1.2em;
+	padding: 8px;
+}
+.col-sm-4{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.logo{
+	display: block;
+	margin: 0 auto;
+}
+.home-hero{
+	background-image: url(images/ocean.jpg);
+	background-size: cover;
+	margin: -10px;
+}
+.home-hero h1{
+	font-family: "Shadows Into Light", cursive;
+  	font-weight: 400;
+  	font-style: normal;
+	color: white;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding-bottom: 25px;
+	margin: 0;
+}
+.home-hero small{
+	font-weight: 400;
+  	font-style: normal;
+	color: white;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding: 65px 0;
+	margin: 0;
+}
+.home-hero a{
+	font-weight: 400;
+  	font-style: normal;
+	color: white;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding: 65px 0;
+	margin: 0;
+}
+.profile{
+	border-radius: 50%;
+	border: 2px solid black;
+	display: block;
+	margin: 0 auto;
+}
+.profile-container{
+	padding-top: 30px;
+}
+.resume-main{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+	
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+    background-color: #163858;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.gallery .gallery-thumbnails img {
+    width: 75px;
+    height: 100px;
+    margin: 3px 10px 10px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+h1{
+	color: #a69e9b;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+}
+h2	{
+	color: #cc904d;
+	background-color: #294052;
+	margin: -10px;
+}
+
+
+nav{
+	border-top: 2px darkred solid;
+	border-bottom: 2px darkred solid;
+	padding: 3px;
+	font-size: 22px;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+
+
+.contact-form {
+  background-color: #d78728;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.contact-form h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: calc(100% - 30px); 
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.contact-form button {
+  display: block;
+  width: calc(100% - 30px);
+  padding: 10px;
+  background-color: #15334f;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555555;
+}
+.contact-info {
+  background-color: #d78728;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+}
+
+.contact-info ul {
+  list-style: none;
+}
+
+.contact-info ul li {
+  margin-bottom: 10px;
+}
+
+.contact-info ul li:last-child {
+  margin-bottom: 0;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	text-align: center;
+	font-size: 4em;
+}
+
+.fa{
+	font-size: 4em;
+	color: orangered;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
